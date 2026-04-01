@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color:white;
+    color: grey ;
+    line-height: 1.6;
+}
+
+header {
+    background:black ;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    color: red;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+}
+
+.hero h1{
+    color:black;
+}
+
+.hero h3{
+    color:black;
+}
+
+.hero-text {
+    max-width: 600px;
+    color:back;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text span {
+    color: #38bdf8;
+}
+
+.hero-text p {
+    margin-bottom: 25px;
+    color: black;
+}
+
+.btn {
+    background:red;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero- img {
+    width: 350px;
+    border-radius: 12px;
+}
+.section{
+    padding: 1px;
+}
+
+.divya h2{
+    color: #020617;
+    margin-bottom: 500;
+   
+}
+.divya-text p {
+    color: black;
+   
+}
+
+section{
+    padding: 60px;
+}
+
+h3 {
+    
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.skills, .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #020617;
+    color: #e5e7eb;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero img {
+        margin-top: 30px;
+    }
+}
